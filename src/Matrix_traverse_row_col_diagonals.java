@@ -1,6 +1,7 @@
 /**
- * Let A be a 100 × 100 bi-dimensional array (matrix), the content of all elements is either 0 or 1.
- * Write a program that tests where there are two 1 lying on the same row, the same column, or the same diagonal in A.
+ * Let A be a 100 × 100 bi-dimensional array (matrix), the content of all
+ * elements is either 0 or 1. Write a program that tests where there are two 1
+ * lying on the same row, the same column, or the same diagonal in A.
  */
 public class Matrix_traverse_row_col_diagonals {
 
@@ -22,8 +23,9 @@ public class Matrix_traverse_row_col_diagonals {
     }
 
     /**
-     * This method traverses major '\' matrix diagonal and checks if there are two elements on each diagonal equals to 1.
-     * If such diagonal is found, then arrow points at it.
+     * This method traverses major '\' matrix diagonal and checks if there are
+     * two elements on each diagonal equals to 1. If such diagonal is found,
+     * then arrow points at it.
      *
      * @param arr 2D-array
      */
@@ -75,8 +77,9 @@ public class Matrix_traverse_row_col_diagonals {
     }
 
     /**
-     * This method traverses minor '/' matrix diagonal and checks if there are two elements on each diagonal equals to 1.
-     * If such diagonal is found, then arrow points at it.
+     * This method traverses minor '/' matrix diagonal and checks if there are
+     * two elements on each diagonal equals to 1. If such diagonal is found,
+     * then arrow points at it.
      *
      * @param arr 2D-array
      */
@@ -128,9 +131,10 @@ public class Matrix_traverse_row_col_diagonals {
     }
 
     /**
-     * This method takes as input 2D-array and checks if each column in the array has two elements equal to 1.
-     * If such column is found, it prints the number of the column.
-     * The method swaps i and j, so that columns become rows and rows become columns.
+     * This method takes as input 2D-array and checks if each column in the
+     * array has two elements equal to 1. If such column is found, it prints
+     * the number of the column. The method swaps i and j, so that columns
+     * become rows and rows become columns.
      *
      * @param arr 2D-array
      */
@@ -154,9 +158,10 @@ public class Matrix_traverse_row_col_diagonals {
     }
 
     /**
-     * This method takes two-dimensional array as argument, then passes it to the findOne() method in the if block to
-     * find if each row of the 2D-array has two elements with value equals to 1. If such row is found, it prints the row
-     * number.
+     * This method takes two-dimensional array as argument, then passes it to
+     * the findOne() method in the if block to find if each row of the 2D-array
+     * has two elements with value equals to 1. If such row is found, it prints
+     * the row number.
      *
      * @param arr 2D-array, type of int
      */
@@ -172,11 +177,11 @@ public class Matrix_traverse_row_col_diagonals {
     }
 
     /**
-     * The method takes one-dimensional array as input and iterates through it counting the number of elements with
-     * value equals to 1
+     * The method takes one-dimensional array as input and iterates through
+     * it counting the number of elements with value equals to 1
      *
      * @param arr one-dimensional array, type of int
-     * @return TRUE if there are only two array elements with value equals to one
+     * @return TRUE if there are only two array elements with value equals 1
      */
     public static boolean findOne(int[] arr)
     {
