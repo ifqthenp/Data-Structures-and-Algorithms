@@ -9,4 +9,4 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 
 [*.java]
-continuation_indent_size = 0
+continuation_indent_size = 8
